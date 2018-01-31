@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "979019518083",
+    "firebase_url": "https://messagermvvm.firebaseio.com",
+    "project_id": "messagermvvm",
+    "storage_bucket": "messagermvvm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:979019518083:android:39b364cc2b38c86d",
+        "android_client_info": {
+          "package_name": "com.mody.messagermvvm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "979019518083-ktntvejb653nbrgb50l52m8ee1udba7h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mody.messagermvvm",
+            "certificate_hash": "95d3555814ee453382d2258d09d1e0f89f6bc248"
+          }
+        },
+        {
+          "client_id": "979019518083-mjpq3qgmlvqqer4lhum9v62bbsl8r6j6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfQF6IwCWrl2gCLogq_2zMCrs0wKy3kd8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "979019518083-mjpq3qgmlvqqer4lhum9v62bbsl8r6j6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <data>
+        <variable
+            name="message"
+            type="com.mody.messagermvvm.model.Message"/>
+    </data>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        >
+
+        <TextView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_gravity="bottom"
+            android:background="@drawable/round_bg"
+            android:gravity="center"
+            android:text="@{message.userName.substring(0, 1)}"
+            android:textColor="@android:color/white"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="32dp"
+            android:background="@drawable/rounded_corners_bg"
+            android:padding="8dp"
+            android:text="@{message.messageContent}"
+            android:textColor="@android:color/white"
+            />
+    </LinearLayout>
+</layout>
